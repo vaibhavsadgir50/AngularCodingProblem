@@ -7,9 +7,9 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 Displays "Seconds left to deadline: X", updated every second.
 
 ## Run
-npm install
-node mock-server.js          # terminal 1 (mock /api/deadline)
-ng serve --proxy-config proxy.conf.json   # terminal 2
+- npm install
+- node mock-server.js &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;# terminal 1 (mock /api/deadline) 
+- ng serve --proxy-config proxy.conf.json &emsp;&emsp;  # terminal 2
 
 ## Design decisions
 - One HTTP call; result cached with shareReplay.
