@@ -1,0 +1,6 @@
+@let s = secondsLeft$ | async;
+@if (s !== null) {
+  <p>Seconds left to deadline: {{ s }}</p>
+} @else {
+  <p>Loading…</p>
+}

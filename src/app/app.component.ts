@@ -1,8 +1,9 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { DeadlineCountdown } from './deadline-countdown/deadline-countdown.component';
 
 @Component({
-  imports: [RouterOutlet],
+  imports: [DeadlineCountdown],
   selector: 'app-root',
   styleUrl: './app.component.css',
   templateUrl: './app.component.html',
